@@ -23,10 +23,10 @@ int main()
     // Iterators & Traversal
 
     forward_list<int>::iterator it;
-    it = l1.begin();        // it will return the iterator to the first element
-    it = l1.end();          // it will return the iterator to the last element
-	it = l1.before_begin(); // it will return the iterator before the first element
-    forward_list<int>::const_iterator cit;   // Const iterator is used to iterate through the list without changing the value of the elements
+    it = l1.begin();                             // it will return the iterator to the first element
+    it = l1.end();                               // it will return the iterator to the last element
+	it = l1.before_begin();                      // it will return the iterator before the first element
+    forward_list<int>::const_iterator cit;       // Const iterator is used to iterate through the list without changing the value of the elements
     cit = l1.cbegin();
     cit = l1.cend();
 	cit = l1.cbefore_begin();

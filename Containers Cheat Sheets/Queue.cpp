@@ -14,8 +14,8 @@ int main()
 {
     // Initializing
 
-    queue<int> q1;                    // Empty queue
-    queue<int> q2(q1);                 // Queue initialized to a copy of q1
+    queue<int> q1;                       // Empty queue
+    queue<int> q2(q1);                   // Queue initialized to a copy of q1
     queue<int> q3({ 1, 2, 3, 4, 5 });    // Queue initialized with initializer list
 
    

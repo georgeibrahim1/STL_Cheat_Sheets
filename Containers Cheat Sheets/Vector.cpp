@@ -16,6 +16,7 @@ int main()
 	// Initializing
 
 	vector<int> v1 = { 1, 2, 3, 4, 5 };
+	vector<int> v2(5); // 5 elements with value 0
 	vector<int> v2(5, 10); // 5 elements with value 10
 	vector<int> v3(v1.begin(), v1.end());
 	vector<int> v4(v3);
@@ -50,8 +51,8 @@ int main()
 
 	// Access
 
-	cout << v1[0] << endl;             // Access using [] operator , Can modify the value
-	cout << v1.at(0) << endl;          // Access using at() function , Can't modify the value
+	v1[0] <<;                          // Access using [] operator
+	v1.at(0);                          // Access using at() function 
 	v1.front();                        // Returns the first element
 	v1.back();                         // Returns the last element
 

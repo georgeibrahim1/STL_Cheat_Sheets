@@ -48,10 +48,11 @@ int main()
 	d1.emplace(d1.begin(), 1);                                  // insert at the beginning
 
     // Access
-    cout << d1[0] << endl;                                       // Access using [] operator, Can modify the value
-    cout << d1.at(0) << endl;                                    // Access using at() function, Can modify the value
-    cout << d1.front() << endl;                                  // Access first element
-    cout << d1.back() << endl;                                   // Access last element
+
+    d1[0];                                       // Access using [] operator
+    d1.at(0);                                    // Access using at() function
+    d1.front();                                  // Access first element
+    d1.back();                                   // Access last element
 
     // Modifying
 

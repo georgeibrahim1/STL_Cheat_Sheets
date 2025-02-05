@@ -23,6 +23,7 @@ int main()
     s1.push(20);                      // Push another element
     s1.push(30);                      // Push another element
 	s1.emplace(40);                   // Push an element onto the stack
+
     // Access
 
     s1.top();                         // Access the top element (does not remove it)

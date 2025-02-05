@@ -23,12 +23,12 @@ int main()
     // Iterators & Traversal
 
     list<int>::iterator it;
-    it = l1.begin();        // it will return the iterator to the first element
-    it = l1.end();          // it will return the iterator to the last element
-    list<int>::reverse_iterator rit;  // reverse iterator
-    rit = l1.rbegin();      // it will return the reverse iterator to the first element
+    it = l1.begin();                         // it will return the iterator to the first element
+    it = l1.end();                           // it will return the iterator to the last element
+    list<int>::reverse_iterator rit;         // reverse iterator
+    rit = l1.rbegin();                       // it will return the reverse iterator to the first element
     rit = l1.rend();
-    list<int>::const_iterator cit;   // Const iterator is used to iterate through the list without changing the value of the elements
+    list<int>::const_iterator cit;           // Const iterator is used to iterate through the list without changing the value of the elements
     cit = l1.cbegin();
     cit = l1.cend();
     list<int>::const_reverse_iterator crit;  // Const reverse iterator
