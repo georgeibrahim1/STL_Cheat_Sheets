@@ -25,7 +25,7 @@ int main()
 
 	vector<int>::iterator it;
 	it = v1.begin();        // it will return the iterator to the first element
-	it = v1.end();          // it will return the iterator to the last element
+	it = v1.end();          // it will return the iterator to (after) last element
 	vector<int>::reverse_iterator rit;                                                              //                          ↓
 	rit = v1.rbegin();                  // it will return the reverse iterator to the first element , i++ --> { begin , - , - , - , end }
 	rit = v1.rend();
