@@ -51,7 +51,7 @@ int main()
 
 	// Access
 
-	v1[0] <<;                          // Access using [] operator
+	v1[0] ;                          // Access using [] operator
 	v1.at(0);                          // Access using at() function 
 	v1.front();                        // Returns the first element
 	v1.back();                         // Returns the last element
