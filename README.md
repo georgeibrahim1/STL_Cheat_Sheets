@@ -41,7 +41,7 @@ This section provides the outlines of the **`Containers Cheat Sheets`** only.
   - Properties
 
 
-## **STL Containers Performance Table** (This Sections need to be reviewed)
+## **STL Containers Performance Table** (This Section needs to be reviewed)
 
 | **Container** | **Insertion** | **Deletion** | **Access (Indexing)** | **Search** | **Sorting** | **Performance Notes** |
 |--------------|--------------|--------------|-----------------|--------------|--------------|----------------------|
@@ -61,7 +61,7 @@ This section provides the outlines of the **`Containers Cheat Sheets`** only.
 | **`stack`** | **O(1)** | O(1) | O(n) | O(n) | O(n log n) | LIFO structure, backed by `deque` by default. |
 | **`queue`** | **O(1)** | O(1) | O(n) | O(n) | O(n log n) | FIFO structure, backed by `deque` by default. |
 
-## **Performance Summary**
+## **Performance Summary** (This Section needs to be reviewed)
 - **Fastest for Direct Access**: `vector`, `deque`
 - **Fastest for Insertions/Deletions (Middle)**: `list`, `forward_list`
 - **Fastest for Insertions/Deletions (Front/Back)**: `deque`
@@ -69,7 +69,7 @@ This section provides the outlines of the **`Containers Cheat Sheets`** only.
 - **Fastest for Ordered Data**: `set`, `map` (O(log n))
 - **Best for Priority-based Operations**: `priority_queue`
 
-### **Choosing the Right Container**
+### **Choosing the Right Container** (This Section needs to be reviewed)
 - Use **`vector`** when fast random access is needed and insertions/deletions are infrequent.
 - Use **`deque`** when fast front/back insertions are needed.
 - Use **`list`** or **`forward_list`** when frequent insertions/deletions occur anywhere.
@@ -78,7 +78,7 @@ This section provides the outlines of the **`Containers Cheat Sheets`** only.
 - Use **`priority_queue`** for priority-based operations.
 - Use **`stack`** or **`queue`** for LIFO/FIFO operations.
 
-## **Conquering Problems with C++ Standard Library**
+## **Conquering Problems with C++ Standard Library** (This Section needs to be reviewed)
 - **`vector`** Problems :
 - **`deque`** Problems :
 - **`list`** Problems :
