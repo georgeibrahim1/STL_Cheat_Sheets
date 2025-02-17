@@ -116,10 +116,10 @@ int main()
 	uset.rehash(10);           // Manual Rehashing --> Automatically rehashes the container when its size exceeds the maximum load factor (Inseting more elements)
 	uset.reserve(10);                      // it will pre allocate the sufficient number of buckets for 10 elements , if the elements are more than 10 then it will rehash the container (Automatically)
 	uset.hash_function();                  // it will return the hash function
-		auto hash = uset.hash_function();  //instead of unordered_set<int, string>::hasher hash = uset.hash_function();
+		auto hash = uset.hash_function();  //instead of unordered_set<int>::hasher hash = uset.hash_function();
 			cout << hash(1) << endl;       // it will return the hash value of 1
 	uset.key_eq();                         // it will return the key equality function
-		auto eq = uset.key_eq();           //instead of unordered_set<int, string>::key_equal eq = uset.key_eq();
+		auto eq = uset.key_eq();           //instead of unordered_set<int>::key_equal eq = uset.key_eq();
 			cout << eq(1, 2) << endl;      // it will return true if 1 is equal to 2
 
 	return 0;
